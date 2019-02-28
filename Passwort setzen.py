@@ -30,4 +30,4 @@ winsound.Beep(2000,200)
 
 t2 = datetime.datetime.now()
 
-print("I needed  {}  seconds.".format((t1 - t2).total_seconds()))
+print("I needed  {}  seconds.".format((t2 - t1).total_seconds()))
