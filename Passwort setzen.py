@@ -15,7 +15,10 @@ files = [file for file in os.listdir() if not file.startswith("__protected ") an
 
 
 for file in files:
-
+    
+    winsound.Beep(2000,200)
+    winsound.Beep(2000,200)
+    
     t1 = datetime.datetime.now()
 
     # Quelle einlesen und Ausgabe vorbereiten
@@ -36,3 +39,7 @@ for file in files:
     t2 = datetime.datetime.now()
 
     print("I needed  {}  seconds.".format((t2 - t1).total_seconds()))
+    
+    winsound.Beep(2000,200)
+    winsound.Beep(2000,200)
+    
